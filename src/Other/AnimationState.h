@@ -1,0 +1,19 @@
+//
+// Created by luria on 17/03/2023.
+//
+
+#ifndef SFMLGAME_ANIMATIONSTATE_H
+#define SFMLGAME_ANIMATIONSTATE_H
+
+enum AnimationState
+{
+  IDLE,
+  MOVING_RIGHT,
+  MOVING_LEFT,
+  JUMPING,
+  INTERACTING,
+  PUSHING,
+};
+
+
+#endif // SFMLGAME_ANIMATIONSTATE_H
